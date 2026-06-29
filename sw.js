@@ -1,10 +1,12 @@
-const CACHE_NAME = 'plan-triatlon-30s-v1';
+const CACHE_NAME = 'plan-triatlon-30s-v2-icon';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
   './icons/icon-192.png',
-  './icons/icon-512.png'
+  './icons/icon-512.png',
+  './icons/icon-1024.png',
+  './icons/apple-touch-icon.png'
 ];
 
 self.addEventListener('install', event => {
